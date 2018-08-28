@@ -1,0 +1,92 @@
+ {
+    totalScore: 0,
+    qestions: [
+        {
+            questionId: "0",
+            question: "What is your age?",
+            answer: "",
+            answerScore: 0
+            options: [
+                {
+                    opitonId: "o1",
+                    option: "< 20",
+                    score: 1
+                },
+                {
+                    opitonId: "o2",
+                    option: "20 - 30",
+                    score: 2
+                },
+                {
+                    opitonId: "o3",
+                    option: "30 - 40",
+                    score: 3
+                }
+            ]
+        },
+        {
+            questionId: "1",
+            question: "What is your birth month?",
+            answer: "",
+            answerScore: 0
+            options: [
+                {
+                    opitonId: "o4",
+                    option: "Jan - Mar",
+                    score: 1
+                },
+                {
+                    opitonId: "o5",
+                    option: "Apr - Jun",
+                    score: 2
+                },
+                {
+                    opitonId: "o6",
+                    option: "Jul - Sep",
+                    score: 3
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+questionnaire: {
+    sections: [ 
+        {
+            questions:[
+                ...
+                selectedInput: '',
+                options: [...]
+            ]
+        },
+        {
+            ...
+        }
+    ]
+}
+
+questionnaire: {
+    sections: [ 
+        {
+            questions:[
+                "1": {
+                        ...
+                        selectedInput: '',
+                        options: [...]
+                    },
+                "2": {
+                        selectedInput: '',
+                        options: [...]
+                    }
+            ]
+        },
+        {
+            ...
+        }
+    ]
+}
