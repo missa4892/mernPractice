@@ -17,8 +17,7 @@ const ProjectOwnerSchema = new Schema({
     isIndividual: {
         type: Boolean,
         required: true
-    },
-    projects: [{ type: Schema.Types.ObjectId, ref: 'Project' }]
+    }
 });
 
-module.exports = Organisation = mongoose.model('ProjectOwner', ProjectOwnerSchema);
+module.exports = ProjectOwner = mongoose.model('ProjectOwner', ProjectOwnerSchema);
